@@ -1,0 +1,29 @@
+.notification {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notification.unread {
+    font-weight: bold;
+    background-color: #eef;
+  }
+  
+  .notification.read {
+    color: #999;
+  }
+  
+  .notification:hover {
+    background-color: #ddd;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px;
+  }
